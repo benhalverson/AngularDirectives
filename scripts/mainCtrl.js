@@ -25,5 +25,30 @@ angular.module('githubUsers').controller('mainCtrl', function($scope){
       'Chewbacca'
     ]
   }
-console.log('Main Controller Scope ', $scope);
+  $scope.user3 = {
+    name: 'user 3',
+    address: {
+      street: 'PO Box 123',
+      city: 'Mos Eisley',
+      planet: 'Tattoine'
+    },
+    friends: [
+      'Han',
+      'Leia',
+      'Chewbacca'
+    ]
+  }
+  $scope.user4 = {
+    name: 'user 4',
+    address: {
+      street: 'PO Box 123',
+      city: 'Mos Eisley',
+      planet: 'Tattoine'
+    },
+    friends: [
+      'Han',
+      'Leia',
+      'Chewbacca'
+    ]
+  }
 });
